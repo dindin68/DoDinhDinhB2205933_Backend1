@@ -26,6 +26,6 @@ exports.deleteAll = (req, res) => {
     res.send({ message: 'deleteAll handler' });
 }
 
-exports.findAllPublished = (req, res) => {
-    res.send({ message: 'findAllPublished handler' });
+exports.findAllFavorite= (req, res) => {
+    res.send({ message: 'findAllFavorite handler' });
 }
